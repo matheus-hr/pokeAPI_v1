@@ -1,0 +1,32 @@
+﻿
+@model IPagedList<Models.Pokemon>
+
+<section class="container">
+
+    @foreach (var pokemon in @Model)
+    {
+        <div class="item">
+            <p class="pokemon-id">#@pokemon.GetIdFormatado()</p>
+
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/@{@pokemon.GetIdFormatado()}.png" />
+
+            <p class="pokemon-name">@pokemon.Nome</p>
+
+            <div class="type-group">
+            @foreach (var tipo in pokemon.Tipos.OrderBy(x => x.Slot))
+            {
+                <p class="type-icon type-@tipo.Tipo.Nome.ToLower()">@tipo.Tipo.Nome</p>
+            }
+            </div>
+
+            <div class="info-group">
+                <p>Heigth: @pokemon.Altura m</p>
+                <p>Weight: @pokemon.Peso Kg</p>
+            </div>
+        </div>
+    }
+
+</section>
+
+@Html.PagedListPager(Model, pagina => Url.Action("Index", "Pokemon", new { pagina }))
+
