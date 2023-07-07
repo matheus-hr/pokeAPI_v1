@@ -1,11 +1,14 @@
 # PokeAPI v1
 ![project_language](https://img.shields.io/badge/language-C%23-green)
 ![server_backend](https://img.shields.io/badge/backend%2Fserver-.NET%20Core-blue)
-![web](https://img.shields.io/badge/web-MVC-blueviolet)
+![webMVC](https://img.shields.io/badge/project-web%20MVC-blueviolet)
 
-Pokedex feita com .NET Core MVC e Chamadas API da PokeAPI
 
-![dd2zouo-047f7b3f-b895-43ac-82a4-abb6ca12c52a](https://user-images.githubusercontent.com/78974230/107979908-1d2df880-6f9e-11eb-94fd-504bc2d8d52e.png)
+Pokedex feita com .NET Core MVC e Chamadas API da PokeAPI.
+
+# 🖼️Fotos
+
+![foto 1](https://user-images.githubusercontent.com/78974230/107980679-74809880-6f9f-11eb-8303-f00497423593.png)
 
 #  🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -38,10 +41,6 @@ Ja no frontend, o objetivo foi implementar um layout utilizando flexbox do CSS p
 <br/>
 
 Com isso a aplicação web ira abrir em seu navegador 
-
-# 🖼️Fotos
-
-![foto 1](https://user-images.githubusercontent.com/78974230/107980679-74809880-6f9f-11eb-8303-f00497423593.png)
 
 <br/>
 
